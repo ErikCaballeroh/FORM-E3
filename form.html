@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+  </head>
+  <body>
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0, "opsz" 48;
+      }
+    </style>
+
+    <main class="main">
+      <!-- Alumnos -->
+      <form action="agenda.php" method="post" class="form">
+        <h2 class="form__title">
+          <span class="material-symbols-outlined">person</span>
+          Alumnos
+        </h2>
+
+        <div class="form__item">
+          <label for="name">Matricula</label>
+          <input class="form__input" type="text" name="name" id="" />
+        </div>
+        <div class="form__item">
+          <label for="lastname">Nombre</label>
+          <input class="form__input" type="text" name="lastname" id="" />
+        </div>
+        <div class="form__item">
+          <label for="affair">Apellido paterno</label>
+          <input class="form__input" type="text" name="affair" id="" />
+        </div>
+        <div class="form__item">
+         <label for="affair">Apellido materno</label>
+         <input class="form__input" type="text" name="affair" id="" />
+       </div>
+       <div class="form__item">
+         <label for="affair">Bachiller Tecnico</label>
+         <input class="form__input" type="text" name="affair" id="" />
+       </div>
+       <div class="form__item">
+         <label for="affair">Grupo</label>
+         <input class="form__input" type="text" name="affair" id="" />
+       </div>
+       <div class="form__item">
+         <label for="affair">Asignatura</label>
+         <input class="form__input" type="text" name="affair" id="" />
+       </div>
+        <!-- <div class="form__item">
+          <label for="message">Mensaje</label>
+          <textarea
+            class="form__textarea"
+            name="message"
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div> -->
+        <div class="form__item">
+          <input class="form__submit" type="submit" value="Enviar" />
+        </div>
+      </form>
+
+      <!-- Maestros -->
+      <form action="agenda.php" method="post" class="form">
+        <h2 class="form__title">
+          <span class="material-symbols-outlined">person_add</span>
+          Maestros
+        </h2>
+
+        <div class="form__item">
+          <label for="name">Id docente</label>
+          <input class="form__input" type="text" name="name" id="" />
+        </div>
+        <div class="form__item">
+          <label for="lastname">Nombre</label>
+          <input class="form__input" type="text" name="lastname" id="" />
+        </div>
+        <div class="form__item">
+          <label for="affair">Apellido</label>
+          <input class="form__input" type="text" name="affair" id="" />
+        </div>
+        <div class="form__item">
+         <label for="affair">Academia</label>
+         <input class="form__input" type="text" name="affair" id="" />
+       </div>
+       <div class="form__item">
+         <label for="affair">Unidad de aprendizaje</label>
+         <input class="form__input" type="text" name="affair" id="" />
+       </div>
+       <div class="form__item">
+         <label for="affair">Grupo asignado</label>
+         <input class="form__input" type="text" name="affair" id="" />
+       </div>
+        <div class="form__item">
+          <input class="form__submit" type="submit" value="Enviar" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
